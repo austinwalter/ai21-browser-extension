@@ -1,0 +1,48 @@
+.App {
+  background: #EDF0F6;
+  padding: 0.5rem;
+}
+
+.Card {
+  background: #FFF;
+  list-style: none;
+  margin: 0;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+  padding: 1rem;
+}
+
+.CardField {
+  margin-bottom: 1.5rem;
+}
+
+.FieldLabel {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FieldStatus {
+  color: #fff;
+  padding: 0 1rem;
+  height: 1.5rem;
+  align-items: center;
+  display: flex;
+  border-radius: 100px;
+  background-color: #61DAFB;
+}
+
+.FieldStatus.Error {
+  background-color: #f23b3b;
+}
+
+.FieldStatus.Ok {
+  background-color: #48d660;
+}
+
+.FieldDescription {
+  overflow-wrap: break-word;
+  width: 100%;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #4a5568;
+}
