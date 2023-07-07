@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+# Browser Extension Boilerplate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started with Browser Extensions
 
-## Available Scripts
+### The key parts of an extension
+- manifest.json
+- popup file
+- content script
+- background
+- options file
 
-In the project directory, you can run:
+## Commands
 
-### `npm start`
+`npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in the development mode in the browser. (http://localhost:3000)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+`npm run build`
 
-### `npm test`
+Builds the extension for production to the `build` folder.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm test`
 
-### `npm run build`
+## Practice Links
+https://www.amazon.com/Audient-MKII-USB-C-Audio-Interface/dp/B08SBSN88X/
+https://d9w4fhj63j193.cloudfront.net/2021/iD4MKII/English/iD4%20MKII%20Manual%20V1.2.pdf
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://www.amazon.com/Frigidaire-EFR451-Refrigerator-Platinum-Stainless/dp/B088G39HRF/
+https://m.media-amazon.com/images/I/C1IhPKs2XgL.pdf
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://www.amazon.com/LG-WM3998HBA-cu-ft-Front-Washer/dp/B087D8MZCS
+https://www.lg.com/ca_en/support/products/documents/WM3998HBA_En.pdf
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## References
 
-### `npm run eject`
+Extensions
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+https://developer.chrome.com/docs/extensions/mv3/getstarted/
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Build_a_cross_browser_extension
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+https://blog.logrocket.com/creating-chrome-extension-react-typescript/
+https://github.com/bajcmartinez/chrome-react-seo-extension/tree/master
+https://web-highlights.com/blog/how-to-build-a-chrome-extension-using-react/
+https://developer.chrome.com/docs/extensions/mv3/manifest/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Search
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+https://medium.com/@greyboi/ddgsearch-search-duckduckgo-scrape-the-results-in-python-18f5265f1aa6
+https://github.com/emlynoregan/newaiexp/blob/main/README-ddgsearch.md
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://stackoverflow.com/questions/68740358/searching-a-product-in-a-website-scrapy
+https://www.freecodecamp.org/news/scraping-ecommerce-website-with-python/
